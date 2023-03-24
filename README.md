@@ -1,1 +1,1 @@
-# ShellingSimulation
+# Python Trajectories Project
