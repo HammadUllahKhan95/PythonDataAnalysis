@@ -32,20 +32,20 @@ Based on the parameters and inputs, each row in a file is assigned a state from 
 After assigning states to each row, the 1000 rows are compacted into 1 row where averages of the parameters and inputs are taken as well as one trajectory class is assigned to that row.
 
 Trajectory classes are based on the presence or absence of a given state in the trajectory of interest. For example, trajectory containing all the states would be ABCD, while containing only A state would be just A, and oscillation between A and B will belong to class AB. There are a total of 15 trajectory classes possible, which are:
-* A
-* B
-* C
-* D
-* AB
-* AC
-* AD
-* BC
-* BD
-* CD
-* ABC
-* ACD
-* BCD
-* ABD
-* ABCD
+  * A
+  * B
+  * C
+  * D
+  * AB
+  * AC
+  * AD
+  * BC
+  * BD
+  * CD
+  * ABC
+  * ACD
+  * BCD
+  * ABD
+  * ABCD
 
 Once, the trajectory class has been assigned to that row, we move to another file. This way, 20,000 rows are created, each being assigned to one of the 15 trajectory classes. These 20 thousand rows are then stored in a new compacted file which is used to visualize and analyze the results.
