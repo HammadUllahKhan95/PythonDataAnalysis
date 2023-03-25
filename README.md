@@ -47,5 +47,5 @@ Trajectory classes are based on the presence or absence of a given state in the 
 * BCD
 * ABD
 * ABCD
-Once, the trajectory class has been assigned to that row, we move to another file. This way, 20,000 rows are created, each being assigned to one of the 15 trajectory classes. These 20 thousand rows are then stored in a new compacted file which is used to visualize and analyze the results.
 
+Once, the trajectory class has been assigned to that row, we move to another file. This way, 20,000 rows are created, each being assigned to one of the 15 trajectory classes. These 20 thousand rows are then stored in a new compacted file which is used to visualize and analyze the results.
